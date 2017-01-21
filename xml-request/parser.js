@@ -66,7 +66,7 @@ $(document).ready(function(){
         // do your html parsing here
         var html = $.parseHTML(res.responseText);
         // console.log(html);
-        $('.container').text(JSON.stringify(res));
+        $('#container').text(JSON.stringify(res));
     }
   });
 })
