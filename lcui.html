@@ -8,12 +8,15 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="js/jquery.vide.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
 </head>
 
 <body>
-  <header class = "container">
+ <header class = "container">
     <div class="row">
-      <h1 class="col-sm-4"><img src="logo.png" alt="logo" height="90" width="200"></h1>
+      <h1 class="col-sm-4"><img src="logo.png" alt="logo" height="100" width="220"></h1>
       <nav class="col-sm-8 text-right">
         <div class = "dropdown">
           <button class = "dropbtn">About Us </button>
@@ -51,18 +54,35 @@
       </nav>
     </div>
   </header>
-
-  <section class="jumbotron">
-    <div class="container">
-      <div class="row text-center">
-        <h2>Fill this with slideshow thingy</h2>
-        <a class="btn btn-primary" href="#" role="button">Open an Account!</a>
-      </div>
+  
+  <!-- <section class="jumbotron"> -->
+<div style="width: 100%; height: 100%; position: relative;">
+  <video autoplay loop id="video-background" muted>
+    <source src="index/columbia_bg.mp4" type="video/mp4">
+  </video>
+  <div class="stretchy-wrapper">
+  
+    <div class="row text-center">
+      <h2 style="color: white; font-size: 65px; margin-top: 15%">By the community.</h2>
+      <h2 style="color: white; font-size: 65px; margin-top: 1%">For the community.</h2>
+      <a class="btn btn-primary" style="margin-top: 8%; font-size: 15px"; href="#" role="button">Open an Account</a>
     </div>
-  </section>
-  <section class = "container">
-    <h3 align = "center"> Learn More </h3>
-    <div class = "row">
+  </div>
+  
+</div>
+
+<!-- <div class="overlay"> -->
+    <!-- <div class="row text-center">
+      <h2>Fill this with slideshow thingy</h2>
+      <a class="btn btn-primary" href="#" role="button">Open an Account!</a>
+    </div> -->
+<!-- </div> -->
+    
+<!--   </section> -->
+<div class="info" style = "z-index: 4">
+  <section class = "container" style="z-index: 4">
+    <h3 align = "center" style="z-index: 4; margin-bottom: 5%; margin-top: 10%"> About Us </h3>
+    <!-- <div class = "row" style="z-index: 4">
       <nav class="col-sm-3">
       <p align = "center">Link 1</p>
       </nav>
@@ -80,21 +100,37 @@
     </nav>
       
       </nav>
-    </div>
+    </div> -->
   </section>
 
   <section class = "container">
     <h2> Main header</h2>
-    <p align = "left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae massa non quam iaculis pharetra. Vivamus id posuere erat. Integer ipsum lacus, ullamcorper vitae tristique vitae, posuere sed augue. Curabitur non dui tristique, sodales felis id, auctor odio. Nunc vestibulum at arcu eget commodo. Etiam at eros facilisis, suscipit mauris ut, dignissim justo. Maecenas nunc dui, malesuada et hendrerit vitae, blandit non mauris. Vivamus in varius sapien. Fusce non nulla viverra, placerat ipsum vitae, vehicula felis. Duis posuere, risus quis iaculis luctus, nisi ex feugiat nunc, non convallis ex nisl in ex. Vivamus at tempus libero, in porttitor est. Cras sed mattis urna, imperdiet interdum dui. Nullam consequat vitae sem nec iaculis. Sed et mi id sem fermentum bibendum sed id ligula.
+    <p align = "left" style="margin-bottom: 10%"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae massa non quam iaculis pharetra. Vivamus id posuere erat. Integer ipsum lacus, ullamcorper vitae tristique vitae, posuere sed augue. Curabitur non dui tristique, sodales felis id, auctor odio. Nunc vestibulum at arcu eget commodo. Etiam at eros facilisis, suscipit mauris ut, dignissim justo. Maecenas nunc dui, malesuada et hendrerit vitae, blandit non mauris. Vivamus in varius sapien. Fusce non nulla viverra, placerat ipsum vitae, vehicula felis. Duis posuere, risus quis iaculis luctus, nisi ex feugiat nunc, non convallis ex nisl in ex. Vivamus at tempus libero, in porttitor est. Cras sed mattis urna, imperdiet interdum dui. Nullam consequat vitae sem nec iaculis. Sed et mi id sem fermentum bibendum sed id ligula.
  </p>
-    <p align = "right"> Put an image here </p>
   </section>
+
+<div id="container_orange">
+
+  <!-- <h3 align="center"> Lorem ipsum</h3> -->
+  <p align = "right" style="margin-right: 15%"> Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit. </p>
+
+</div><div id="container_blue">
+  <!-- <h3 align="center">dolor sit amet</h3> -->
+  <p align = "left" style="margin-left: 15%"> Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit.  </p>
+</div><div id="container_orange">
+  <!-- <h3>consectetur adipiscing elit</h3>  --> 
+  <p align = "right" style="margin-right: 15%"> Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit.  </p>
+</div>
+
 <div id = "horizontal-line">
     </div>
 <footer class="container">
   <div id = "footer">
     
-  <h3 align = "center"> Thank you for banking with us! </h3>
+  <h3 align = "center" style="color: white "> Thank you for banking with us! </h3>
   <div class = "row">
     <nav class="col-sm-4">
       <p align = "center">Privacy Policy</p>
@@ -111,6 +147,6 @@
   <h4 align = "center"> Federally Insured by NCUA </h4>
 </div>
 </footer>
-
+</div>
 
 </html>
