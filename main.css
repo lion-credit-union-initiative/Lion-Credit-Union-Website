@@ -238,7 +238,7 @@ footer li img {
       font-family: 'Avenir' ;
       padding: 2em;
       text-align: center;
-      background-color: #2695fe;
+      background: linear-gradient(90deg,#312a6c,#2696fe);
       margin-left: -100px;
       margin-right: -100px;
 
@@ -249,7 +249,7 @@ footer li img {
 #container_orange{
 
     display:inline-block;
-    background: linear-gradient(90deg,#ff8d00, #f69d29);
+    background: linear-gradient(90deg,#dc6018, #f69d29);
     /*background-color: #f69d29;*/
     width: 100%;
     height: 700px;
@@ -274,7 +274,7 @@ footer li img {
 #container_blue{
 
       display:inline-block;
-      background: linear-gradient(90deg,#2696fe,#1cabe4);
+      background: linear-gradient(90deg,#312a6c,#2696fe);
       /*background-color: #2696fe;*/
       width: 100%;
       height: 700px;
