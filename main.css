@@ -249,7 +249,8 @@ footer li img {
 #container_orange{
 
     display:inline-block;
-    background-color: #f69d29;
+    background: linear-gradient(90deg,#ff8d00, #f69d29);
+    /*background-color: #f69d29;*/
     width: 100%;
     height: 700px;
     margin-left: none;
@@ -273,7 +274,8 @@ footer li img {
 #container_blue{
 
       display:inline-block;
-      background-color: #2696fe;
+      background: linear-gradient(90deg,#2696fe,#1cabe4);
+      /*background-color: #2696fe;*/
       width: 100%;
       height: 700px;
       margin-left: none;
