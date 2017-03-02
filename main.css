@@ -65,8 +65,13 @@ body {
 }
 
 header {
-  height: 50%;
+  height: 130px;
   padding: 20px 0;
+  position: fixed;
+  z-index: 100;
+  background: white;
+  width: 100%;
+  margin: 0;
 }
 
 header .row,
