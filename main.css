@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Avenir;
-    src: url("codelight.otf");
+    font-family: BiggerFont;
+    src: url("assets/fonts/codelight.otf");
 }
 
 #video-background {
@@ -64,7 +64,7 @@ div.stretchy-wrapper > div {
 }
 
 body {
-  font-family: Avenir, sans-serif;
+  font-family: BiggerFont, sans-serif;
   font-weight: 300;
   overflow-x: hidden;
 }
@@ -245,7 +245,7 @@ footer li img {
 #footer {
       text-align: center ;
       font-size: 15px ;
-      font-family: 'Avenir', sans-serif ;
+      font-family: 'BiggerFont', sans-serif ;
       padding: 4em;
       text-align: center;
       margin-left: -100px;
@@ -270,7 +270,7 @@ footer li img {
     text-align: right;
     vertical-align: top;
     line-height: 1;
-    font-family: 'Avenir', sans-serif;
+    font-family: 'BiggerFont', sans-serif;
     font-size: 30px;
     color: white;
 
@@ -294,7 +294,7 @@ footer li img {
       text-align: left;
       vertical-align: top;
       line-height: 1;
-      font-family: 'Avenir', sans-serif;
+      font-family: 'BiggerFont', sans-serif;
       font-size: 30px;
       color: white;
 
