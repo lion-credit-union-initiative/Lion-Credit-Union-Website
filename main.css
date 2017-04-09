@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: SmallerFont;
-    src: url("assets/fonts/ginarabold.otf");
+    src: url("assets/fonts/lane.ttf");
 }
 
 #video-background {
@@ -299,7 +299,7 @@ footer li img {
       text-align: left;
       vertical-align: top;
       line-height: 1;
-      font-family: 'BiggerFont', sans-serif;
+      font-family: 'SmallerFont', sans-serif;
       font-size: 30px;
       color: white;
 
