@@ -75,7 +75,6 @@ body {
 }
 
 header {
-  height: 130px;
   padding: 20px 0;
   position: fixed;
   z-index: 100;
@@ -185,10 +184,13 @@ footer li img {
 .dropbtn {
   background-color: #2695fe;
   color: white;
-  padding: 30px 40px;
+  height: 50px;
+  padding: 0px 15px;
+  margin: 1.5px;
+  border-radius: 3px;
   font-size: 15px;
   border: none;
-  cursor: pointer;
+  cursor: pointer;  
 }
 
 /* The container <div> - needed to position the dropdown content */
