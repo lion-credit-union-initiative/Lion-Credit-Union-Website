@@ -319,3 +319,9 @@ footer li img {
 
 
 }
+
+@media (max-width: 990px) {
+  .main-content {
+    padding-top: 180px;
+  }
+}
