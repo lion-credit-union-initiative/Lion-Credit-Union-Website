@@ -75,18 +75,32 @@ body {
 }
 
 header {
-  padding: 20px 0;
   position: fixed;
   z-index: 100;
   background: white;
   width: 100%;
   margin: 0;
+  padding: 0;
+}
+
+header.container {
+  padding: 0;
+}
+
+header .logo {
+  padding: 20px 0;
+}
+
+header .logo img {
+  height: 45px;
+  width: auto;
 }
 
 header .row,
 footer .row {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   margin-left: 0;
   margin-right: 0;
 }
@@ -100,6 +114,12 @@ header h1 {
 header nav {
   display: flex;
   justify-content: flex-end;
+  padding: 0 !important;
+  width: initial !important;
+}
+
+div.logos, nav {
+  flex-grow: 1;
 }
 
 section nav {
@@ -188,9 +208,10 @@ footer li img {
 .dropbtn {
   background-color: #2695fe;
   color: white;
-  height: 50px;
+  height: 90px;
+  width: 100%;
   padding: 0px 40px;
-  margin: 1.5px;
+  margin: 0;
   border-radius: 0px;
   font-size: 15px;
   border: none;
@@ -202,6 +223,7 @@ footer li img {
     position: relative;
     display: inline-block;
     z-index: 10;
+    width: 25%;
 }
 
 /* Dropdown Content (Hidden by Default) */
