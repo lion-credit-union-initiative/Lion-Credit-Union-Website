@@ -21,12 +21,22 @@
   padding: 10px 0;
   font-size: 22px;
   cursor: pointer;
+  display: block;
+  height: 50px;
 }
 
 .answer {
   display: none;
   font-size: 16px;
   line-height: 125%;
+}
+
+.question .text, .glyphicon {
+  float: left;
+}
+
+.glyphicon {
+  padding-left: 10px;
 }
 
 @media (max-width: 990px) {
