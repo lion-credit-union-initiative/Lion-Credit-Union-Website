@@ -1,0 +1,15 @@
+.image-container {
+  max-width:33%;
+}
+
+.image-container img {
+  height: 200px;
+  width: auto !important;
+}
+
+@media (max-width: 990px) {
+  .image-container img {
+    height: 100px;
+    width: auto;
+  }
+}
