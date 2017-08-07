@@ -1,6 +1,6 @@
 .main-content {
-  padding-top: 180px !important;
-  height: 500px !important;
+  padding-top: 100px !important;
+  height: 400px !important;
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
