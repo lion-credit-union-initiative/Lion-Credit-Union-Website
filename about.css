@@ -11,3 +11,41 @@
     padding-top: 180px;
   }
 }
+
+/* Container for the middle block after the main paragraph, copied from main content just so the ID tag will work */
+#credit-unions{
+      display:inline-block;
+      background-color: #2696fe;
+      width: 100%;
+      margin-left: none;
+      margin-right: none;
+      padding-top: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 30px;
+      text-align: left;
+      vertical-align: top;
+      line-height: 1;
+      font-family: 'SmallerFont', sans-serif;
+      font-size: 30px;
+      color: white;
+}
+
+/* Container for the top and bottom blocks after the main paragraph, copied from main content just so the ID tag will work */
+#contact{
+    display:inline-block;
+    background-color: #eaac44;
+    width: 100%;
+    margin-left: none;
+    margin-right: none;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    text-align: right;
+    vertical-align: top;
+    line-height: 1;
+    font-family: 'SmallerFont', sans-serif;
+    font-size: 30px;
+    color: white;
+}
