@@ -44,3 +44,8 @@
     padding-top: 180px;
   }
 }
+
+a {
+    text-decoration: none !important;
+    color: #f2b124;
+}
