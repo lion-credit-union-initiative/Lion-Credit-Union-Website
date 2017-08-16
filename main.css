@@ -169,7 +169,7 @@ section .row img {
   border: 0px;
   color: #ffffff;
   text-shadow: none;
-  background-color: #2696fe;
+  background-color: #2895fe;
   padding: 15px;
 
 }
@@ -284,7 +284,7 @@ footer li img {
 #container_orange{
 
     display:inline-block;
-    background-color: #eaac44;
+    background-color: #f2b124;
     width: 100%;
     margin-left: none;
     margin-right: none;
@@ -308,7 +308,7 @@ footer li img {
 #container_blue{
 
       display:inline-block;
-      background-color: #2696fe;
+      background-color: #2895fe;
       width: 100%;
       margin-left: none;
       margin-right: none;
