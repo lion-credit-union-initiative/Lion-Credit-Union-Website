@@ -176,11 +176,11 @@ section .row img {
 
 .btn.btn-primary:hover {
   color: #ffffff;
-  background-color: #54aafe;
+  background-color: #f69d29;
 }
 
 .btn-secondary {
-  background-color: #54aafe;
+  background-color: #f69d29;
   color: #ffffff;
   margin: 0 0 30px;
 }
@@ -308,7 +308,7 @@ footer li img {
 #container_blue{
 
       display:inline-block;
-      background-color: #54aafe;
+      background-color: #2895fe;
       width: 100%;
       margin-left: none;
       margin-right: none;
