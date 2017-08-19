@@ -63,10 +63,6 @@ header {
   padding: 0;
 }
 
-header.container {
-  padding: 0;
-}
-
 header .logo {
   padding: 20px 0;
   max-width: 50%;
