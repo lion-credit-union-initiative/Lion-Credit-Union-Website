@@ -1,269 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <title>LION Credit Union | LCU</title>
-  <meta name="description" content="LION Credit Union is a not-for-profit financial institution that aims to better the Columbia community's financial well-being with a full suite of exceptional banking products."/>
-  <meta name="keywords" content="Credit Union,not-for-profit,financial institution,Columbia community,LION credit union"/>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <head>
+    <title>LION Credit Union | LCU</title>
+      <meta name="description" content="LION Credit Union is a not-for-profit financial institution that aims to better the Columbia community's financial well-being with a full suite of exceptional banking products."/>
+      <meta name="keywords" content="Credit Union,not-for-profit,financial institution,Columbia community,LION credit union"/>
+      <meta charset="UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-  <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <link rel="stylesheet" type="text/css" href="lcu.css">
-  <link rel="shortcut icon" href="favicon.ico">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-</head>
+      <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="main.css">
+      <link rel="stylesheet" type="text/css" href="lcu.css">
+      <link rel="shortcut icon" href="favicon.ico">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
 
-<body>
+  <body>
     <header class = "container" style="width: 100%">
       <div class="row" style = "clear;">
         <div class="logos">
           <a class="logo" href="lcu.html"><img src="assets/logo.png" alt="LION Credit Union logo" class="col-md-4 col-xs-12"></a>
         </div>
-        <nav class="col-md-8 col-xs-12 text-right">
-          <div class = "dropdown">
-            <a href="about.html" style="color: white"><button class = "dropbtn"><font size=4px>About Us</font></button></a>
-            <div class = "dropdown-content">
-              <a href="about.html#story">The LCU Story</a>
-              <a href="about.html#credit-unions">What's a Credit Union?</a>
-              <a href="faq.html">FAQs</a>
-              <a href="mailto:lioncreditunion@gmail.com">Contact Us</a>
+          <nav class="col-md-8 col-xs-12 text-right">
+            <div class = "dropdown">
+              <a href="about.html" style="color: white"><button class = "dropbtn"><font size=4px>About Us</font></button></a>
+              <div class = "dropdown-content">
+                <a href="about.html#story">The LCU Story</a>
+                <a href="about.html#credit-unions">What's a Credit Union?</a>
+                <a href="faq.html">FAQs</a>
+                <a href="mailto:lioncreditunion@gmail.com">Contact Us</a>
+              </div>
+            </div>
+            <div class = "dropdown">
+              <button class = "dropbtn"><font size=4px>Products</font></button>
+                <div class = "dropdown-content">
+                  <a href="#">Compare Rates</a>
+                    <a href="https://www.usalliance.org/banking-products/mylife-checking">MyLife Checking</a>
+                    <a href="https://www.usalliance.org/banking-products/mylife-savings">MyLife Savings</a>
+                    <a href="https://www.usalliance.org/loan-products/credit-builder-loan">Credit Builder</a>
+                </div>
+            </div>
+            <div class = "dropdown">
+              <button class = "dropbtn"><font size=4px>Members</font></button>
+                  <div class="dropdown-content">
+                      <a href="#">Find an ATM</a>
+                      <a href="#">I Need Help!</a>
+                      <a href="#">Sign In</a>
+                  </div>
+              </div>
+              <div class = "dropdown" style: "clear:right">
+                  <a href="https://premiumservices.usalliance.org/columbia" style="color: white"><button class = "dropbtn"><font size=4px>Join Us</font></button></a>
+              </div>
+
+            </nav>
+          </div>
+        </header>
+
+        <div class = "hidden-sm hidden-xs" style="width: 100%; height: 100%; position: relative;">
+          <video autoplay loop id="video-background" muted>
+            <source src="assets/columbia_bg.mp4" type="video/mp4">
+          </video>
+          <div class="stretchy-wrapper">
+
+            <div class="overlay">
+              <h2 style="color: white; font-size: 65px; margin-top: 24%">By the community, </h2>
+              <h2 style="color: white; font-size: 65px; margin-top: 1%">For the community.</h2>
             </div>
           </div>
-          <div class = "dropdown">
-              <button class = "dropbtn"><font size=4px>Products</font></button>
-              <div class = "dropdown-content">
-                <a href="#">Compare Rates</a>
-                <a href="https://www.usalliance.org/banking-products/mylife-checking">MyLife Checking</a>
-                <a href="https://www.usalliance.org/banking-products/mylife-savings">MyLife Savings</a>
-                <a href="https://www.usalliance.org/loan-products/credit-builder-loan">Credit Builder</a>
-              </div>
-          </div>
-          <div class = "dropdown">
-              <button class = "dropbtn"><font size=4px>Members</font></button>
-              <div class="dropdown-content">
-                  <a href="#">Find an ATM</a>
-                  <a href="#">I Need Help!</a>
-                  <a href="#">Sign In</a>
-              </div>
-          </div>
-          <div class = "dropdown" style: "clear:right">
-              <a href="https://premiumservices.usalliance.org/columbia" style="color: white"><button class = "dropbtn"><font size=4px>Join Us</font></button></a>
-          </div>
-
-        </nav>
-      </div>
-    </header>
-
-<!-- <section class="jumbotron"> -->
-<div class = "hidden-sm hidden-xs" style="width: 100%; height: 100%; position: relative;">
-  <video autoplay loop id="video-background" muted>
-    <source src="assets/columbia_bg.mp4" type="video/mp4">
-  </video>
-  <div class="stretchy-wrapper">
-
-    <div class="overlay">
-      <h2 style="color: white; font-size: 65px; margin-top: 24%">By the community, </h2>
-      <h2 style="color: white; font-size: 65px; margin-top: 1%">For the community.</h2>
-    </div>
-  </div>
-
 </div>
-    <!-- <div id="lcu-slideshow" class="carousel slide" data-ride="carousel"> -->
-      <!-- Indicators -->
-     <!--  <ol class="carousel-indicators">
-        <li data-target="#lcu-slideshow" data-slide-to="0" class="active"></li>
-        <li data-target="#lcu-slideshow" data-slide-to="1"></li>
-      </ol> -->
 
-      <!-- Wrapper for slides -->
- <!--      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img src="assets/columbia2.jpg">
-          <div class="carousel-caption">
+
+      <section class = "main-content container-fluid">
+          <center>
+          <h1 style="margin-top: 5%; margin-bottom:5%">Welcome to LCU! Where People Matter.</h1>
+          </center>
+
+          <div class = "row col-X-12" style="margin-bottom:1%"> <center>
+            <div class = "col-md-4 col-sm-4 col-xs-4 image-container">
+              <img class = "img-responsive" src= "assets/rates.png" alt="LCU Exceptional Rates icon">
+            </div>
+            <div class = "col-md-4 col-sm-4 col-xs-4 image-container">
+              <img class = "img-responsive" src= "assets/customer-service.png" alt="LCU Dedicated Service icon">
+            </div>
+            <div class = "col-md-4 col-sm-4 col-xs-4 image-container">
+              <img class = "img-responsive" src= "assets/community.png" alt="LCU One Family icon">
+            </div>
+          </center>
           </div>
-        </div>
-        <div class="item">
-          <img src="assets/1.jpg">
-          <div class="carousel-caption">
+
+          <div class = "row".col-X-12 style="margin-bottom:1%"> <b>
+            <div align="center" class = "col-md-4 col-sm-4 col-xs-4"> <font size=4px>Exceptional Rates</div></font>
+            <div align="center" class = "col-md-4 col-sm-4 col-xs-4"> <font size=4px>Dedicated Service</div></font>
+            <div align="center" class = "col-md-4 col-sm-4 col-xs-4"> <font size=4px>One Family</div></font>
+          </b></div>
+
+          <div class = "row".col-X-12 style="margin-bottom:5%">
+            <div align="center" class = "col-md-4 hidden-sm hidden-xs"> <font size=3px>Credit unions are not-for-profit banks - everything we make goes towards benefits for our members. That’s why we can offer better rates across savings products with fewer restrictions. Check out our rates here!</div> </font>
+            <div align="center" class = "col-md-4 hidden-sm hidden-xs"> <font size=3px>Ever had a bad customer support experience? We promise to be different: unlike at tradtional banks, all our members are also credit union stakeholders. You can count on a great experience with us.</div> </font>
+            <div align="center" class = "col-md-4 hidden-sm hidden-xs"> <font size=3px>LCU was built by the community, for the community. We're committed to helping underpriviliged populations and bettering the Columbia family's financial health through financial literacy, improved credit, and member events.</div> </font>
           </div>
-        </div>
-      </div>
- -->
-      <!-- Controls -->
-    <!--   <a class="left carousel-control" href="#lcu-slideshow" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#lcu-slideshow" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div> -->
-  <!-- </div> -->
-<!-- </div> -->
 
-<!-- <div class="overlay"> -->
-    <!-- <div class="row text-center">
-      <h2>Fill this with slideshow thingy</h2>
-      <a class="btn btn-primary" href="#" role="button">Open an Account!</a>
-    </div> -->
-<!-- </div> -->
+      </section>
 
-<!--   </section> -->
-<!-- <div class="info" style = "z-index: 4">
-  <section class = "container" style="z-index: 4"> -->
-    <!--<h3 align = "center" style="z-index: 4; margin-bottom: 5%; margin-top: 5%"> About Us </h3> -->
-    <!-- <div class = "row" style="z-index: 4">
-      <nav class="col-sm-3">
-      <p align = "center">Link 1</p>
-      </nav>
-      <nav class="col-sm-3">
+      <section id="container_blue">
+          <h2 style="margin-top: 5%;margin-bottom: 5%"> <center>Who Are We?</h2>
+          <p align = "left" style="margin-right: 10%;margin-bottom: 5%;margin-left: 10%"><font size="4px">
+              The LION Credit Union is a not-for-profit financial institution that serves Columbia students, staff, faculty, alumni, and their immediate families with a full suite of banking products. We're a division of USALLIANCE Financial, a $1+ billion not-for-profit institution serving over 90,000 members and organizations such as American Express, PepsiCo, and IBM. Through our partnership, we’ve committed to tailoring our offerings to community needs and to providing the Columbia community with superior products at above-industry rates. All LCU accounts are insured by the National Credit Union Share Insurance Fund (a federal agency) up to $250,000 per individual, so you can rest easy knowing your hard-earned savings are protected. </p></font></center>
+      </section>
 
-      <p align = "center"> Link 2 </p>
-    </nav>
-      <nav class="col-sm-3">
-
-      <p align = "center"> Link 3 </p>
-      </nav>
-      <nav class="col-sm-3">
-
-      <p align = "center"> Link 4 </p>
-    </nav>
-
-      </nav>
-    </div>
-</section> -->
-
-  <section class = "main-content container-fluid">
-      <center>
-      <h1 style="margin-top: 5%; margin-bottom:5%">Welcome to LCU! Where People Matter.</h1>
-      </center>
-
-      <div class = "row col-X-12" style="margin-bottom:1%"> <center>
-        <div class = "col-md-4 col-sm-4 col-xs-4 image-container">
-          <img class = "img-responsive" src= "assets/rates.png" alt="LCU Exceptional Rates icon">
-        </div>
-        <div class = "col-md-4 col-sm-4 col-xs-4 image-container">
-          <img class = "img-responsive" src= "assets/customer-service.png" alt="LCU Dedicated Service icon">
-        </div>
-        <div class = "col-md-4 col-sm-4 col-xs-4 image-container">
-          <img class = "img-responsive" src= "assets/community.png" alt="LCU One Family icon">
-        </div>
-      </center>
+      <section id="container_orange">
+        <center>
+            <h2 style="margin-top:5%; margin-bottom:5%">Interested in joining the LION Credit Union family?</h2>
+            <a href="https://premiumservices.usalliance.org/columbia" >
+                <div class = "btn btn-primary btn-square" style="margin-bottom: 5%; font-size: 20px">JOIN US   </div></a>
+        </center>
       </div>
 
-      <div class = "row".col-X-12 style="margin-bottom:1%"> <b>
-        <div align="center" class = "col-md-4 col-sm-4 col-xs-4"> <font size=4px>Exceptional Rates</div></font>
-        <div align="center" class = "col-md-4 col-sm-4 col-xs-4"> <font size=4px>Dedicated Service</div></font>
-        <div align="center" class = "col-md-4 col-sm-4 col-xs-4"> <font size=4px>One Family</div></font>
-      </b></div>
+      <footer class="container">
+        <div id = "footer">
+        <div class = "row" style="margin-top:3% margin-bottom:1%">
+            <div class="col-md-2 hidden-sm hidden-xs">
 
-      <div class = "row".col-X-12 style="margin-bottom:5%">
-        <div align="center" class = "col-md-4 hidden-sm hidden-xs"> <font size=3px>Credit unions are not-for-profit banks - everything we make goes towards benefits for our members. That’s why we can offer better rates across savings products with fewer restrictions. Check out our rates here!</div> </font>
-        <div align="center" class = "col-md-4 hidden-sm hidden-xs"> <font size=3px>Ever had a bad customer support experience? We promise to be different: unlike at tradtional banks, all our members are also credit union stakeholders. You can count on a great experience with us.</div> </font>
-        <div align="center" class = "col-md-4 hidden-sm hidden-xs"> <font size=3px>LCU was built by the community, for the community. We're committed to helping underpriviliged populations and bettering the Columbia family's financial health through financial literacy, improved credit, and member events.</div> </font>
-      </div>
+            </div>
+            <nav class="col-md-2 col-sm-6 col-xs-6 links" align="left">
+                <h3 align="left">
+                   <a href="about.html" class="color: #000000 !important; text-decoration: none !important;">About Us</a>
+                </h3>
+                <a href="about.html#story">The LCU Story</a><br/>
+                <a href="about.html#credit-unions">What's a Credit Union</a><br/>
+                <a href="about.html#contact">Contact Us</a><br/>
+            </nav>
+            <nav class="col-md-2 col-sm-6 col-xs-6 links" align="left">
+                <h3>
+                   <div class="color: #000000 !important; text-decoration: none !important;">Products</div>
+                </h3>
+                <a href="https://www.usalliance.org/banking-products/mylife-checking">MyLife Checking</a><br/>
+                <a href="https://www.usalliance.org/banking-products/mylife-savings">MyLife Savings</a><br/>
+                <a href="https://www.usalliance.org/loan-products/credit-builder-loan">Credit Builder</a></br>
+                <a href="https://www.usalliance.org/about-us/atm-branch-locator">Find an ATM</a>
+            </nav>
+            <nav class="col-md-2 col-sm-6 col-xs-6 links" align="left">
+                <h3>
+                    <a href="faq.html" class="color: #000000 !important; text-decoration: none !important;">FAQ</a>
+                </h3>
+            </nav>
+            <nav class="col-md-2 col-sm-6 col-xs-6 links" align="left">
+                <h3 align="left">
+                    <a href="https://premiumservices.usalliance.org/columbia" class="color: #000000 !important; text-decoration: none !important;">Join Us</a>
+                </h3>
+            </nav>
+            <div class="col-md-2 hidden-sm hidden-xs">
 
-  </section>
-
-<!--<div id="container_orange">
-  <!-- <h3 align="center"> Lorem ipsum</h3> -->
-  <!-- <center>
-  <h2> Products</h2><br />
-  <p> <font size=3px>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae massa non quam iaculis pharetra. Vivamus id posuere erat. Integer ipsum lacus, ullamcorper vitae tristique vitae, posuere sed augue. Curabitur non dui tristique, sodales felis id, auctor odio. Nunc vestibulum at arcu eget commodo. Etiam at eros facilisis, suscipit mauris ut, dignissim justo. Maecenas nunc dui, malesuada et hendrerit vitae, blandit non mauris. Vivamus in varius sapien. Fusce non nulla viverra, placerat ipsum vitae, vehicula felis. usce non nulla viverra, placerat ipsum vitae, vehicula felis. Duis posuere, risus quis iaculis luctus, nisi ex feugiat nunc, non convallis ex nisl in ex. </font></p>
-  </center>
-  <br /><br /><br />
-  <div class = "row".col-X-12> <center>
-    <div class = "col-md-3 col-xs-3 image-container">
-      <img class = "img-responsive" src= "assets/dollar_sign_white.png"></div>
-    <div class = "col-md-3 col-xs-3 image-container">
-      <img class = "img-responsive" src= "assets/bar_graph_white.png"></div>
-    <div class = "col-md-3 col-xs-3 image-container">
-      <img class = "img-responsive" src= "assets/credit_card3_white.png"></div>
-    <div class = "col-md-3 col-xs-3 image-container">
-      <img class = "img-responsive" src= "assets/loan_white.png"></div>
-  </center>
-  </div>
-  <br />
-  <div class = "row".col-X-12>
-    <div align="center" class = "col-md-3 hidden-sm hidden-xs"> <font size=4px> Checking and Savings Accounts</div> </font>
-    <div align="center" class = "col-md-3 hidden-sm hidden-xs"> <font size=4px> Credit Builder Accounts </div> </font>
-    <div align="center" class = "col-md-3 hidden-sm hidden-xs"> <font size=4px> Credit Cards </div> </font>
-    <div align="center" class = "col-md-3 hidden-sm hidden-xs"> <font size=4px> Student and Personal Loans </div> </font>
-  </div>
-  </div>
-
-</div>-->
-  <div id="container_blue">
-      <h2 style="margin-top: 5%;margin-bottom: 5%"> <center>Who Are We?</h2>
-      <p align = "left" style="margin-right: 10%;margin-bottom: 5%;margin-left: 10%"><font size="4px">
-          The LION Credit Union is a not-for-profit financial institution that serves Columbia students, staff, faculty, alumni, and their immediate families with a full suite of banking products. We're a division of USALLIANCE Financial, a $1+ billion not-for-profit institution serving over 90,000 members and organizations such as American Express, PepsiCo, and IBM. Through our partnership, we’ve committed to tailoring our offerings to community needs and to providing the Columbia community with superior products at above-industry rates. All LCU accounts are insured by the National Credit Union Share Insurance Fund (a federal agency) up to $250,000 per individual, so you can rest easy knowing your hard-earned savings are protected. </p></font></center>
-  </div>
-
-  <div id="container_orange">
-    <!-- <h3>consectetur adipiscing elit</h3>  -->
-    <center>
-    <h2 style="margin-top:5%; margin-bottom:5%">Interested in joining the LION Credit Union family?</h2>
-    <a href="https://premiumservices.usalliance.org/columbia" ><div class = "btn btn-primary btn-square" style="margin-bottom: 5%; font-size: 20px">
-      JOIN US
-    </div></a>
-    </center>
-  </div>
-
-  <footer class="container">
-    <div id = "footer">
-    <div class = "row" style="margin-top:3% margin-bottom:1%">
-        <div class="col-md-2 hidden-sm hidden-xs">
-
+            </div>
         </div>
-        <nav class="col-md-2 col-sm-6 col-xs-6 links" align="left">
-            <h3 align="left">
-               <a href="about.html" class="color: #000000 !important; text-decoration: none !important;">About Us</a>
-            </h3>
-            <a href="about.html#story">The LCU Story</a><br/>
-            <a href="about.html#credit-unions">What's a Credit Union</a><br/>
-            <a href="about.html#contact">Contact Us</a><br/>
-        </nav>
-        <nav class="col-md-2 col-sm-6 col-xs-6 links" align="left">
-            <h3>
-               <div class="color: #000000 !important; text-decoration: none !important;">Products</div>
-            </h3>
-            <a href="https://www.usalliance.org/banking-products/mylife-checking">MyLife Checking</a><br/>
-            <a href="https://www.usalliance.org/banking-products/mylife-savings">MyLife Savings</a><br/>
-            <a href="https://www.usalliance.org/loan-products/credit-builder-loan">Credit Builder</a></br>
-            <a href="https://www.usalliance.org/about-us/atm-branch-locator">Find an ATM</a>
-        </nav>
-        <nav class="col-md-2 col-sm-6 col-xs-6 links" align="left">
-            <h3>
-                <a href="faq.html" class="color: #000000 !important; text-decoration: none !important;">FAQ</a>
-            </h3>
-        </nav>
-        <nav class="col-md-2 col-sm-6 col-xs-6 links" align="left">
-            <h3 align="left">
-                <a href="https://premiumservices.usalliance.org/columbia" class="color: #000000 !important; text-decoration: none !important;">Join Us</a>
-            </h3>
-        </nav>
-        <div class="col-md-2 hidden-sm hidden-xs">
 
-        </div>
-    </div>
-
-    <div class="row">
-        <nav class="col-md-12 col-sm-12 col-xs-12" style="margin-top:1%; margin-bottom:1%">
-            <font size="12px">
+        <div class="row">
+            <nav class="col-md-12 col-sm-12 col-xs-12" style="margin-top:1%; margin-bottom:1%; font-size: 6px;">
                 <center>
                     <a href="https://www.usalliance.org/website-privacy-policy">Website Privacy Policy</a> |
                     <a href="https://www.usalliance.org/privacy-policy">Privacy Policy</a> |
-                    <a href="https://www.usalliance.org/terms-of-use">Terms of Use</a><br/>Federally Insured by NCUA. Equal Housing Lender.<br/>
+                    <a href="https://www.usalliance.org/terms-of-use">Terms of Use</a><br/>
+                    Federally Insured by NCUA. Equal Housing Lender.<br/>
                     © 2017 USALLIANCE. All rights reserved.
                 </center>
-            </font>
-        </nav>
-    </div>
-  </div>
-  </footer>
-</body>
+            </nav>
+        </div>
+      </div>
+      </footer>
+    </body>
 
 </html>
