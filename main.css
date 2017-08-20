@@ -162,26 +162,6 @@ section nav {
   display: flex;
 }
 
-.jumbotron {
-  display: flex;
-  align-items: center;
-  color: #ffffff;
-  height: 650px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-}
-
-.jumbotron h2 {
-  font-size: 60px;
-  font-weight: 700;
-  margin: 0;
-  color: #fff;
-}
-
-.jumbotron h3 {
-  margin: 0 0 20px;
-  color: #fff;
-}
-
 section .row img {
   margin: 0 0 30px;
   width: 100%;
@@ -214,15 +194,14 @@ section .row img {
   width: 100%;
   margin-left: none;
   margin-right: none;
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 30px;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 20%;
   text-align: left;
   vertical-align: top;
-  line-height: 1;
+  line-height: 1.7;
   font-family: 'SmallerFont', sans-serif;
-  font-size: 30px;
   color: #ffffff;
 }
 
@@ -321,5 +300,10 @@ footer nav.links {
 
   .main-content {
     padding-top: 12vh;
+  }
+
+  footer .row {
+    padding-left: 2vw;
+    padding-right: 2vw;
   }
 }
