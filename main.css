@@ -281,9 +281,14 @@ footer nav.links {
   header .logo {
     padding: 10px 0;
     float: left;
+    width: 100vw;
+  }
+
+  header .nav {
+    width: 100vw;
   }
 
   .main-content {
-    padding-top: 180px;
+    padding-top: 12vh;
   }
 }
