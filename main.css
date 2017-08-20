@@ -22,7 +22,11 @@ header > img {
   height: 10vh;
   margin: 0 !important;
   padding: 0 !important;
+<<<<<<< HEAD
   flex-grow: 3;
+=======
+  flex-grow:
+>>>>>>> origin/master
 }
 
 header .row, footer .row {
