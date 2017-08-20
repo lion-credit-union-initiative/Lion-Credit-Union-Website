@@ -288,6 +288,10 @@ footer nav.links {
     width: 100vw;
   }
 
+  .dropdown-content {
+      width: 100vw;
+  }
+
   .main-content {
     padding-top: 12vh;
   }
