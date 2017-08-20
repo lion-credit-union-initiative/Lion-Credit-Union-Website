@@ -39,6 +39,10 @@
   padding-left: 10px;
 }
 
+h2 {
+  color: #f2b124;
+}
+
 @media (max-width: 990px) {
   .main-content {
     padding-top: 180px;

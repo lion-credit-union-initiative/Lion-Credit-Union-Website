@@ -18,7 +18,7 @@
 header {
   position: fixed;
   z-index: 100;
-  background: white;
+  background: #ffffff;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -60,7 +60,7 @@ header nav {
 /* DROPDOWN */
 .dropbtn {
   background-color: #2695fe;
-  color: white;
+  color: #ffffff;
   height: 100%;
   width: 100%;
   padding: 0;
@@ -102,7 +102,7 @@ header nav {
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
     background-color: #54aafe;
-    color: white;
+    color: #ffffff;
   }
 
 /* Show the dropdown menu on hover */
@@ -204,7 +204,7 @@ section .row img {
     line-height: 1;
     font-family: 'SmallerFont', sans-serif;
     font-size: 30px;
-    color: white;
+    color: #ffffff;
 }
 
 /* Container for the middle block after the main paragraph */
@@ -223,7 +223,7 @@ section .row img {
   line-height: 1;
   font-family: 'SmallerFont', sans-serif;
   font-size: 30px;
-  color: white;
+  color: #ffffff;
 }
 
 #container_blue a {
@@ -255,7 +255,7 @@ footer a {
 }
 
 footer a:hover {
-  color:#f2b124;
+  color:#f6c369;
   text-decoration: none;
 }
 
@@ -270,16 +270,36 @@ footer nav.links {
 }
 
 /* BUTTONS */
+/* Gold button with white outline for use on gold background */
 .btn.btn-primary {
   border-radius: 0px;
-  border: none;
   color: #ffffff;
   text-shadow: none;
-  background-color: #2895fe;
-  padding: 15px;
+  background-color: #f2b124;
+  padding: 10px 40px 10px 40px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
 }
 
 .btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #f6c369;
+}
+
+/* Blue button with white outline for use on blue background */
+.btn.btn-secondary {
+  border-radius: 0px;
+  color: #ffffff;
+  text-shadow: none;
+  background-color: #2895fe;
+  padding: 10px 40px 10px 40px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+}
+
+.btn.btn-secondary:hover {
   color: #ffffff;
   background-color: #54aafe;
 }
