@@ -44,11 +44,6 @@ div.stretchy-wrapper > div {
   top: 0; bottom: 0; left: 0; right: 0;
 }
 
-.buttons {
-  float: right;
-  margin: 55px;
-}
-
 body {
   font-family: 'SmallerFont', sans-serif;
   font-weight: 300;
