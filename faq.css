@@ -45,7 +45,7 @@
   }
 }
 
-.orange-text {
-    text-decoration: none !important;
-    color: #f2b124 !important;
+#container_blue a {
+  text-decoration: none !important;
+  color: #f2b124 !important;
 }
