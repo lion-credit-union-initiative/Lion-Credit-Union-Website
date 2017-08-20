@@ -264,9 +264,9 @@ footer nav.links {
 }
 
 .social-logo {
-  height: 16px;
-  width: 16x;
-  margin: 0 8;
+  height: 32px;
+  width: 32x;
+  margin-right: 4px;
 }
 
 /* BUTTONS */
