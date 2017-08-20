@@ -63,16 +63,6 @@ header.container {
   padding: 0;
 }
 
-header .logo {
-  padding: 20px 0;
-  max-width: 50%;
-}
-
-header .logo img {
-  height: 45px;
-  width: auto;
-}
-
 header .row,
 footer .row {
   display: flex;
