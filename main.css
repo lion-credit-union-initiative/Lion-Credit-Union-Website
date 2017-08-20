@@ -288,8 +288,12 @@ footer li img {
       font-family: 'SmallerFont', sans-serif;
       font-size: 30px;
       color: white;
+}
 
-
+.social-logo {
+  height: 16px;
+  width: 16x;
+  margin: 0 8;
 }
 
 @media (max-width: 990px) {
