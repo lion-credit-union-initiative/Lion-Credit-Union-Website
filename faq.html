@@ -7,11 +7,6 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <style>
-  @import url('https://fonts.googleapis.com/css?family=Istok+Web');
-  </style>
-
-  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="main.css">
   <link rel="stylesheet" type="text/css" href="faq.css">
@@ -21,44 +16,48 @@
 </head>
 
 <body>
-  <header class = "container" style="width: 100%">
-    <div class="row" style = "clear;">
+  <header class = "container-fluid">
+    <div class="row">
       <div class="logos">
-        <a class="logo" href="lcu.html"><img src="assets/logo.png" alt="LION Credit Union logo" class="col-md-2 col-xs-2"></a>
-        <a class="logo" href="https://www.usalliance.org/"><img src="assets/usalliance.jpg" alt="USALLIANCE logo" class="col-md-2 col-xs-2"></a>
+        <a href="lcu.html"><img src="assets/logo.png" alt="LION Credit Union logo"></a>
       </div>
-      <nav class="col-md-8 col-xs-8 text-right">
+      <nav>
         <div class = "dropdown">
-          <a href="about.html" style="color: white"><button class = "dropbtn"><font size=4px>About Us</font></button></a>
+          <a href="about.html"><button class = "dropbtn">About Us</button></a>
           <div class = "dropdown-content">
             <a href="about.html#story">The LCU Story</a>
             <a href="about.html#credit-unions">What's a Credit Union?</a>
-            <a href="about.html#contact">Contact Us</a>
+            <a href="faq.html">FAQ</a>
+            <a href="mailto:lioncreditunion@gmail.com">Contact Us</a>
           </div>
         </div>
         <div class = "dropdown">
-            <button class = "dropbtn"><font size=4px>Products</font></button>
-            <div class = "dropdown-content">
-              <a href="https://www.usalliance.org/banking-products/mylife-checking">MyLife Checking</a>
-              <a href="https://www.usalliance.org/banking-products/mylife-savings">MyLife Savings</a>
-              <a href="https://www.usalliance.org/loan-products/credit-builder-loan">Credit Builder</a>
-              <a href="https://www.usalliance.org/about-us/atm-branch-locator">Find an ATM</a>
-            </div>
+          <a href="#"><button class = "dropbtn">Products</button></a>
+          <div class = "dropdown-content">
+            <a href="#">Compare Rates</a>
+            <a href="https://www.usalliance.org/banking-products/mylife-checking">MyLife Checking</a>
+            <a href="https://www.usalliance.org/banking-products/mylife-savings">MyLife Savings</a>
+            <a href="https://www.usalliance.org/loan-products/credit-builder-loan">Credit Builder</a>
+          </div>
         </div>
         <div class = "dropdown">
-            <a href="faq.html" style="color: white"><button class = "dropbtn"><font size=4px>FAQ</font></button></a>
+          <a href="#"><button class = "dropbtn">Members</button></a>
+          <div class="dropdown-content">
+            <a href="#">Sign In</a>
+            <a href="#">Find an ATM</a>
+            <a href="#">I Need Help!</a>
+          </div>
         </div>
-        <div class = "dropdown" style: "clear:right">
-            <a href="https://premiumservices.usalliance.org/columbia" style="color: white"><button class = "dropbtn"><font size=4px>Join Us</font></button></a>
+        <div class = "dropdown">
+          <a href="https://premiumservices.usalliance.org/columbia"><button class = "dropbtn">Join Us</button></a>
         </div>
-
       </nav>
     </div>
   </header>
 
   <section class= "main-content container-fluid">
       <center>
-        <h1 style="margin: 25px 0;">LCU FAQ</h1>
+        <h1>LCU FAQ</h1>
       </center>
   </section>
   <div id="container_blue">
@@ -179,63 +178,65 @@
   <div id="container_orange">
     <!-- <h3>consectetur adipiscing elit</h3>  -->
     <center>
-    <h2 style="margin-top:5%; margin-bottom:5%">Interested in joining the LION Credit Union family?</h2>
-    <a href="https://premiumservices.usalliance.org/columbia"><div class = "btn btn-primary" style="margin-bottom: 5%; font-size: 20px">
+    <h2>Interested in joining the LION Credit Union family?</h2>
+    <a href="https://premiumservices.usalliance.org/columbia"><div class = "btn btn-primary">
       JOIN US
   </div></a>
     </center>
   </div>
 
-  <footer class="container">
-    <div id = "footer">
-    <div class = "row" style="margin-top:3% margin-bottom:1%">
-        <nav class="col-md-2 hidden-sm hidden-xs">
-
-        </nav>
-        <nav class="col-md-2 col-sm-6 col-xs-6 links" align="left">
-            <h3 align="left">
-               <a href="about.html">About Us</a>
-            </h3>
-            <a href="about.html#story">The LCU Story</a><br/>
-            <a href="about.html#credit-unions">What's a Credit Union</a><br/>
-            <a href="about.html#contact">Contact Us</a><br/>
-        </nav>
-        <nav class="col-md-2 col-sm-6 col-xs-6 links" align="left">
-            <h3>
-               Products
-            </h3>
-            <a href="https://www.usalliance.org/banking-products/mylife-checking">MyLife Checking</a><br/>
-            <a href="https://www.usalliance.org/banking-products/mylife-savings">MyLife Savings</a><br/>
-            <a href="https://www.usalliance.org/loan-products/credit-builder-loan">Credit Builder</a></br>
-            <a href="https://www.usalliance.org/about-us/atm-branch-locator">Find an ATM</a>
-        </nav>
-        <nav class="col-md-2 col-sm-6 col-xs-6 links" align="left">
-            <h3>
-                <a href="faq.html">FAQ</a>
-            </h3>
-        </nav>
-        <nav class="col-md-2 col-sm-6 col-xs-6 links" align="left">
-            <h3 align="left">
-                <a href="https://premiumservices.usalliance.org/columbia">Join Us</a>
-            </h3>
-        </nav>
-        <nav class="col-md-2 hidden-sm hidden-xs">
-
-        </nav>
+  <footer class="container-fluid">
+    <div class = "row">
+      <div class="col-md-2 col-xs-12" align="left">LION Credit Union is a divison of USALLIANCE Financial.<br/>
+        <a href="https://usalliange.org">usalliance.org</a>
+      </div>
+      <nav class="col-md-2 col-xs-6 links" align="left">
+        <h3 align="left">
+           <a href="about.html">About Us</a>
+        </h3>
+        <a href="about.html#story">The LCU Story</a><br/>
+        <a href="about.html#credit-unions">What's a Credit Union</a><br/>
+        <a href="faq.html">FAQ</a><br/>
+        <a href="about.html#contact">Contact Us</a><br/>
+      </nav>
+      <nav class="col-md-2 col-xs-6 links" align="left">
+        <h3><a href="#">Products</a></h3>
+          <a href="#">Compare Rates</a><br/>
+          <a href="https://www.usalliance.org/banking-products/mylife-checking">MyLife Checking</a><br/>
+          <a href="https://www.usalliance.org/banking-products/mylife-savings">MyLife Savings</a><br/>
+          <a href="https://www.usalliance.org/loan-products/credit-builder-loan">Credit Builder</a></br>
+      </nav>
+      <nav class="col-md-2 col-xs-6 links" align="left">
+        <h3><a href="#">Members</a></h3>
+        <a href="#">Sign In</a><br/>
+        <a href="https://www.usalliance.org/about-us/atm-branch-locator">Find an ATM</a><br/>
+        <a href="#">Customer Support</a></br>
+      </nav>
+      <nav class="col-md-2 col-xs-6 links" align="left">
+        <h3 align="left">
+          <a href="https://premiumservices.usalliance.org/columbia" class="color: #000000 !important; text-decoration: none !important;">Join Us</a>
+        </h3>
+      </nav>
+      <div class="col-md-2 col-12-xs" align="left">
+        Follow Us!<br/>
+        <a href="#"><img src="assets/facebook.svg" alt="LION Credit Union FB" class="social-logo"></a>
+        <a href="#"><img src="assets/twitter.svg" alt="LION Credit Union Twitter" class="social-logo"></a>
+        <a href="#"><img src="assets/instagram.svg" alt="LION Credit Union Instagram"  class="social-logo"></a>
+        <a href="#"><img src="assets/linkedin.svg" alt="LION Credit Union LinkedIn"  class="social-logo"></a>
+      </div>
     </div>
 
-    <div class="row">
-        <nav class="col-md-12 col-sm-12 col-xs-12" style="margin-top:1%; margin-bottom:1%">
-            <font size="1px">
-                <center>
-                    <a href="https://www.usalliance.org/website-privacy-policy">Website Privacy Policy</a> |
-                    <a href="https://www.usalliance.org/privacy-policy">Privacy Policy</a> |
-                    <a href="https://www.usalliance.org/terms-of-use">Terms of Use</a><br/>Federally Insured by NCUA. Equal Housing Lender.<br/>
-                    © 2017 USALLIANCE. All rights reserved.</center>
-            </font>
-        </nav>
+    <div class="row" style="margin-top: 3vh;">
+      <nav class="col-md-12 col-sm-12 col-xs-12">
+        <center>
+          <a href="https://www.usalliance.org/website-privacy-policy">Website Privacy Policy</a> |
+          <a href="https://www.usalliance.org/privacy-policy">Privacy Policy</a> |
+          <a href="https://www.usalliance.org/terms-of-use">Terms of Use</a><br/>Federally Insured by NCUA. Equal Housing Lender.<br/>
+          APY* = Annual Percentage Yield. APR* = Annual Percentage Rate.<br/>
+          © 2017 USALLIANCE. All rights reserved.
+        </center>
+      </nav>
     </div>
-  </div>
   </footer>
 </body>
 
