@@ -22,14 +22,6 @@ header > img {
   height: 10vh;
   margin: 0 !important;
   padding: 0 !important;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  flex-grow: 3;
-=======
-  flex-grow:
->>>>>>> origin/master
-=======
->>>>>>> parent of f59a13a... updating header
 }
 
 header .row, footer .row {
