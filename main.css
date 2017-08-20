@@ -12,6 +12,7 @@
 .container-fluid {
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 /* HEADER */
@@ -49,6 +50,12 @@ header div.logos {
   flex-grow: 1;
   height: 100%;
   max-width: 50%;
+}
+
+/* The LCU logo */
+header div.logos img {
+   display: inline-block;
+   height: 100%
 }
 
 header nav {
@@ -158,16 +165,6 @@ body {
   overflow-x: hidden;
 }
 
-section nav {
-  display: flex;
-}
-
-section .row img {
-  margin: 0 0 30px;
-  width: 100%;
-}
-
-
 /* Container for the top and bottom blocks after the main paragraph */
 #container_orange {
     display:inline-block;
@@ -221,6 +218,8 @@ footer {
   font-size: 12px;
   font-family: 'SmallerFont', sans-serif;
   text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
 footer .row {
@@ -259,6 +258,7 @@ footer nav.links {
   border-style: solid;
   border-color: #ffffff;
   border-width: 1px;
+  font-size: 20px;
 }
 
 .btn.btn-primary:hover {
@@ -276,11 +276,18 @@ footer nav.links {
   border-style: solid;
   border-color: #ffffff;
   border-width: 1px;
+  font-size: 20px;
 }
 
 .btn.btn-secondary:hover {
   color: #ffffff;
   background-color: #54aafe;
+}
+
+/* Headers */
+h1 {
+   margin-top: 5%;
+   margin-bottom: 5%;
 }
 
 @media (max-width: 990px) {
