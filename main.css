@@ -44,24 +44,9 @@ div.stretchy-wrapper > div {
   top: 0; bottom: 0; left: 0; right: 0;
 }
 
-.head {
-  height: 10%;
-}
-
-.top {
-  height: 10%;
-}
-
-.logo {
-  height: 1%;
-  display: inline-block;
-}
-
 .buttons {
   float: right;
   margin: 55px;
-
-
 }
 
 body {
