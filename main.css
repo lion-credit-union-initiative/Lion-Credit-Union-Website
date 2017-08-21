@@ -1,4 +1,4 @@
-/* Importing fonts */
+/* GLOBAL ITEMS */
 @font-face {
   font-family: BiggerFont;
   src: url("assets/fonts/codelight.otf");
@@ -16,6 +16,10 @@
   position: relative;
 }
 
+h4 {
+  margin: 0;
+}
+
 /* HEADER */
 header {
   position: fixed;
@@ -29,6 +33,8 @@ header {
 
 header .row {
   height: 10vh;
+  position: fixed;
+  background: #ffffff;
 }
 
 header .row, footer .row {
@@ -125,6 +131,7 @@ header nav {
 
 /* BODY */
 #video-background {
+  margin-top:10vh;
   position: relative;
   right: 0;
   bottom: 0;
@@ -137,6 +144,7 @@ header nav {
 }
 
 div.stretchy-wrapper {
+  margin-top: 10vh;
   position: absolute;
   width: 100%;
   padding-bottom: 56.25%;
@@ -163,10 +171,18 @@ div.stretchy-wrapper > div {
 body {
   font-family: 'SmallerFont', sans-serif;
   font-weight: 300;
+  line-height: 1.7;
+  font-size: 14px;
   overflow-x: hidden;
 }
 
-/* Container for the top and bottom blocks after the main paragraph */
+main {
+  background-color: #ffffff;
+  height: 90vh;
+  padding: 7vh 10vw 7vh 10vw !important;
+}
+
+/* Container for the bottom blocks on page */
 #container_orange {
   display:inline-block;
   background-color: #f2b124;
@@ -192,13 +208,9 @@ body {
   width: 100%;
   margin-left: none;
   margin-right: none;
-  padding-top: 10%;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 20%;
+  padding: 7vh 10vw 7vh 10vw !important;
   text-align: left;
   vertical-align: top;
-  line-height: 1.7;
   font-family: 'SmallerFont', sans-serif;
   color: #ffffff;
 }
@@ -213,20 +225,27 @@ body {
   color: #ffffff;
 }
 
-/* FOOTER */
+/* FOOTER, note footer.row is up with header .row above */
 footer {
   text-align: left;
-  font-size: 12px;
   font-family: 'SmallerFont', sans-serif;
   text-align: center;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+  height: 35vh;
+  line-height: 1.25;
+  padding-bottom: 3vh;
 }
 
 footer .row {
+  padding-top: 5vh;
   padding-left: 10vw;
   padding-right: 10vw;
+  font-size: 12px;
 }
+
+footer .block {
+  height: 10vh;
+}
+
 
 footer a {
   color: black;
@@ -236,10 +255,6 @@ footer a {
 footer a:hover {
   color:#f6c369;
   text-decoration: none;
-}
-
-footer nav.links {
-  height: 150px;
 }
 
 .social-logo {
@@ -278,6 +293,7 @@ footer nav.links {
   border-color: #ffffff;
   border-width: 1px;
   font-size: 20px;
+  display: inline-block;
 }
 
 .btn.btn-secondary:hover {
@@ -285,11 +301,6 @@ footer nav.links {
   background-color: #54aafe;
 }
 
-/* Headers */
-h1 {
- margin-top: 5%;
- margin-bottom: 5%;
-}
 
 @media (max-width: 990px) {
   header .logo {
@@ -303,11 +314,12 @@ h1 {
   }
 
   .dropdown-content {
-      width: 100vw;
+    width: 100vw;
   }
 
   main {
-    padding-top: 12vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
   }
 
   footer .row {
