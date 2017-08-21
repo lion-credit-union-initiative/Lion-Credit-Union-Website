@@ -1,9 +1,8 @@
 main {
   margin-top: 10vh !important;
-  height: 20vh;
-  display: flex;
   justify-content: center; /* align horizontal */
-  align-items: center; /* align vertical */
+  align-items: center;
+  padding-bottom: 10vh;
 }
 
 .faq-header {
@@ -36,15 +35,21 @@ main {
 .glyphicon {
   padding-top: 7px;
   padding-left: 7px;
-}
-
-#container_blue h2 {
   color: #f2b124;
 }
 
-#container_blue {
-  padding-top: 0 !important;
-  padding-bottom: 10vh !important;
+main a {
+  text-decoration: none;
+  color: #f2b124;
+}
+
+main a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+main h2 {
+  color: #2895fe;
 }
 
 #container_orange {
