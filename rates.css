@@ -17,11 +17,18 @@ table {
   text-align: center;
 }
 
+table * {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
 
 th {
+  font-weight: bold;
   text-align: center !important;
   background-color: #2895fe;
   color: white;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
 }
 
 td {
@@ -31,6 +38,7 @@ td {
 }
 
 .divider {
+  font-weight: bold;
   background-color: #fec846;
   color: #ffffff;
   text-align: left !important;
