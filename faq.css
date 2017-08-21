@@ -38,13 +38,19 @@ main {
   padding-left: 7px;
 }
 
-h2 {
+#container_blue h2 {
   color: #f2b124;
 }
 
 #container_blue {
   padding-top: 0 !important;
   padding-bottom: 10vh !important;
+}
+
+#container_orange {
+  height: 55vh;
+  padding: 22vh 0 22vh 0;
+  text-align: right;
 }
 
 @media (max-width: 990px) {
