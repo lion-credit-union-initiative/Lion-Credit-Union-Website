@@ -1,0 +1,52 @@
+main {
+  margin-top: 10vh !important;
+  height: 90vh;
+  align-items: center;
+}
+
+main h1 {
+  margin-bottom: 5vh;
+}
+
+#container_blue img {
+  width: 80vw;
+}
+
+table {
+  width: 80vw;
+  text-align: center;
+}
+
+
+th {
+  text-align: center !important;
+  background-color: #2895fe;
+  color: white;
+}
+
+td {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center !important;
+}
+
+.divider {
+  background-color: #fec846;
+  color: #ffffff;
+  text-align: left !important;
+  padding-left: 10px;
+}
+
+.compare-target {
+  background-color: white !important;
+  color: #2895fe !important;
+  text-align: left !important;
+  padding-left: 10px;
+}
+
+
+#container_orange {
+  height: 55vh;
+  padding: 22vh 0 22vh 0;
+  text-align: right;
+}
