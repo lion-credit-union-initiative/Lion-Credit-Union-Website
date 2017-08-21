@@ -186,7 +186,7 @@ main {
 /* Container for the bottom blocks on page */
 #container_orange {
   display:inline-block;
-  background-color: #f2b124;
+  background-color: #fec846;
   width: 100%;
   margin-left: none;
   margin-right: none;
@@ -218,7 +218,7 @@ main {
 
 #container_blue a {
   text-decoration: none;
-  color: #f2b124;
+  color: #fec846;
 }
 
 #container_blue a:hover {
@@ -254,7 +254,7 @@ footer a {
 }
 
 footer a:hover {
-  color:#f6c369;
+  color:#fec846;
   text-decoration: none;
 }
 
@@ -271,7 +271,7 @@ footer a:hover {
   border-radius: 0px;
   color: #ffffff;
   text-shadow: none;
-  background-color: #f2b124;
+  background-color: #fec846;
   padding: 10px 40px 10px 40px;
   border-style: solid;
   border-color: #ffffff;
@@ -281,7 +281,7 @@ footer a:hover {
 
 .btn.btn-primary:hover {
   color: #ffffff;
-  background-color: #f6c369;
+  background-color: #f2b124;
 }
 
 /* Blue button with white outline for use on blue background */
