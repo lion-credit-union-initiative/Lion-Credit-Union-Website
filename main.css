@@ -131,7 +131,7 @@ header nav {
 
 /* BODY */
 #video-background {
-  margin-top:10vh;
+  margin-top: 10vh;
   position: relative;
   right: 0;
   bottom: 0;
@@ -172,13 +172,14 @@ body {
   font-family: 'SmallerFont', sans-serif;
   font-weight: 300;
   line-height: 1.7;
-  font-size: 14px;
+  font-size: 17px;
   overflow-x: hidden;
 }
 
 main {
   background-color: #ffffff;
-  height: 90vh;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
   padding: 7vh 10vw 7vh 10vw !important;
 }
 
@@ -189,16 +190,14 @@ main {
   width: 100%;
   margin-left: none;
   margin-right: none;
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 30px;
   text-align: right;
   vertical-align: top;
   line-height: 1;
   font-family: 'SmallerFont', sans-serif;
   font-size: 30px;
   color: #ffffff;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
 }
 
 /* Container for the middle block after the main paragraph */
@@ -213,6 +212,8 @@ main {
   vertical-align: top;
   font-family: 'SmallerFont', sans-serif;
   color: #ffffff;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
 }
 
 #container_blue a {
@@ -256,6 +257,7 @@ footer a:hover {
   color:#f6c369;
   text-decoration: none;
 }
+
 
 .social-logo {
   height: 32px;
@@ -320,6 +322,8 @@ footer a:hover {
   main {
     padding-top: 10vh;
     padding-bottom: 10vh;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
   }
 
   footer .row {

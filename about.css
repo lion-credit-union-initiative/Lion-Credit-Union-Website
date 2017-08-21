@@ -1,9 +1,23 @@
-.main-content {
-  padding-top: 100px !important;
-  height: 550px !important;
+main {
+  height: 100vh !important;
   display: flex;
+  position: relative;
+}
+
+h1 {
+  margin-below: 10vh !important;
+}
+
+#container_blue {
+  height: 90vh;
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
+  padding-top: 20vh !important;
+}
+
+#container_orange {
+  height: 55vh;
+  padding-top: 22.5vh;
 }
 
 @media (max-width: 990px) {

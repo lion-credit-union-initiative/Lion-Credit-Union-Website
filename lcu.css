@@ -9,9 +9,9 @@
 }
 
 #container_blue {
-  font-size: 17px;
   padding: 20vh 10vw 30vh 10vw !important;
   height: 90vh;
+  align-items: center;
 }
 
 #container_blue h2 {
@@ -22,6 +22,11 @@
   height: 55vh;
   padding: 22vh 0 22vh 0;
   text-align: right;
+}
+
+main {
+  height: 90vh;
+  font-size: 14px;
 }
 
 @media (max-width: 990px) {
