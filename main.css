@@ -81,7 +81,7 @@ header nav {
   margin: 0;
   border-radius: 0px;
   font-size: 18px;
-  border: none;
+  border: none !important;
   cursor: pointer;
 }
 
