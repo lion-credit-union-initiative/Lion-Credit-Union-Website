@@ -36,6 +36,6 @@ main {
 
 @media (max-width: 990px) {
   .image-container img {
-    height: 15vh !important;
+    height: 10vh !important;
   }
 }
