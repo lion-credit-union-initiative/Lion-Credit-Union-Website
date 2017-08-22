@@ -344,7 +344,6 @@ footer .left-block, footer .right-block {
   main {
     margin-top: 20vh !important;
     height: auto !important;
-    padding: 7vh 10vw 7vh 10vw !important;
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
   }
