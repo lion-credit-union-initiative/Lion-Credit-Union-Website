@@ -1,3 +1,9 @@
+/* TESTING */
+body * {
+  border-style: solid !important;
+  border-color: red !important;
+}
+
 /* GLOBAL ITEMS */
 @font-face {
   font-family: BiggerFont;
@@ -237,7 +243,7 @@ footer {
   text-align: center;
   height: 35vh;
   line-height: 1.25;
-  padding-bottom: 3vh;
+  padding-bottom: 5vh !important;
   padding-top: 5vh !important;
 }
 
@@ -267,11 +273,7 @@ footer a:hover, main a:hover {
   text-decoration: none;
 }
 
-footer .left-block {
-
-}
-
-footer .right-block {
+footer .left-block, footer .right-block {
 
 }
 
@@ -319,8 +321,7 @@ footer .right-block {
   background-color: #54aafe;
 }
 
-
-
+/* For mobile devices */
 @media (max-width: 990px) {
   header div.logos {
     float: center;
@@ -359,28 +360,33 @@ footer .right-block {
     padding: 7vh 10vw 7vh 10vw !important;
   }
 
+  #container_orange {
+    padding: 11vh 10vw 0 10vw !important;
+  }
+
   #container_orange * {
     text-align: center !important;
     padding-top: auto;
   }
 
-  #container_orange {
-    padding-top: 11vh;
-  }
-
   footer {
     height: auto !important;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    padding-top: 3vh !important;
+    padding-bottom: 3vh !important;
   }
 
   footer .block {
     height: 10vh !important;
+    margin-bottom: 5vh !important;
   }
 
   footer .row {
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding-left: 2vw !important;
+    padding-right: 2vw !important;
+  }
+
+  footer .left-block, footer .right-block {
+    text-align: center !important;!
   }
 
   h1 {
@@ -392,6 +398,10 @@ footer .right-block {
   }
 
   h3 {
+    font-size: 14px !important;
+  }
+
+  h4 {
     font-size: 14px !important;
   }
 }
