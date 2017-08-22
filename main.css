@@ -1,9 +1,3 @@
-/* TESTING */
-body * {
-  border-style: solid !important;
-  border-color: red !important;
-}
-
 /* GLOBAL ITEMS */
 @font-face {
   font-family: BiggerFont;
