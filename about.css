@@ -17,7 +17,10 @@ h1 {
 
 #container_blue {
   height: 90vh;
-  padding: 20vh 10vw 30vh 10vw;
+  padding-top: 20vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 30vh;
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
 }
@@ -30,5 +33,10 @@ h1 {
 @media (max-width: 990px) {
   main {
     padding: 7vh 10vw 7vh 10vw !important;
+  }
+
+  #container_blue {
+    margin-top: 20vh !important;
+    padding-top: -20vh !important;
   }
 }
