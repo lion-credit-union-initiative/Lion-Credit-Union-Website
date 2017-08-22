@@ -238,19 +238,24 @@ footer {
   height: 35vh;
   line-height: 1.25;
   padding-bottom: 3vh;
+  padding-top: 5vh !important;
 }
 
 footer .row {
-  padding-top: 5vh;
   padding-left: 10vw;
   padding-right: 10vw;
   font-size: 12px;
 }
 
-footer .block {
-  height: 10vh;
+footer .row * {
+  padding: 0;
 }
 
+footer .block {
+  height: 12vh;
+  margin-bottom: 2vh;
+  text-align: left;
+}
 
 footer a, main a {
   color: black;
@@ -260,6 +265,14 @@ footer a, main a {
 footer a:hover, main a:hover {
   color:#f2b124;
   text-decoration: none;
+}
+
+footer .left-block {
+
+}
+
+footer .right-block {
+
 }
 
 .social-logo {
