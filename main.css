@@ -347,7 +347,11 @@ footer a:hover {
   }
 
   #container_orange .row.* {
+<<<<<<< HEAD
     text-align: center !important;
+=======
+    align: center !important;
+>>>>>>> origin/master
   }
 
   footer {
