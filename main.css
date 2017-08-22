@@ -318,7 +318,11 @@ footer a:hover {
 
   .dropdown-content {
     width: 100vw;
+<<<<<<< HEAD
     position: fixed !important;
+=======
+    position: fixed;
+>>>>>>> origin/master
   }
 
   .dropdown a {
