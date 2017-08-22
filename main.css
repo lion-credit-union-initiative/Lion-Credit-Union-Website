@@ -351,11 +351,13 @@ footer a:hover {
   }
 
   footer {
-    height: 80vh !important;
+    height: auto !important;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
   }
 
   footer .block {
-    height: 20vh !important;
+    height: auto !important;
   }
 
   footer .row {
