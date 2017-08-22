@@ -346,17 +346,6 @@ footer a:hover {
     padding: 7vh 10vw 7vh 10vw !important;
   }
 
-  #container_orange {
-    height: 80vh !important;
-  }
-
-  #container_orange row{
-    padding-left: 5vw !important;
-    padding-right: 5vw !important;
-    padding-top: 3vh !important;
-    text-align: center !important;
-  }
-
   footer {
     height: 80vh !important;
   }
