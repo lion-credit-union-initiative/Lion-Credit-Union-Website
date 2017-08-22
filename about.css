@@ -1,3 +1,8 @@
+a[href="about.html"] {
+  pointer-events: none;
+  cursor: default;
+}
+
 main {
   height: 100vh !important;
   display: flex;
