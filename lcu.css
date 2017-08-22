@@ -49,7 +49,23 @@ main {
   }
 
   h2 {
+<<<<<<< HEAD
     font-size: 20px;
+=======
+    font-size: 14px;
+  }
+
+  #container_blue {
+    height: 80vh !important;
+  }
+
+  #container_blue {
+    height: 80vh !important;
+  }
+
+  #container_orange {
+    height: 45vh !important;
+>>>>>>> origin/master
   }
 
   h3 {
