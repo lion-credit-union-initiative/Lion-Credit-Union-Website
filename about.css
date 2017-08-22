@@ -4,9 +4,11 @@ a[href="about.html"] {
 }
 
 main {
-  height: 100vh;
-  display: flex;
-  position: relative;
+  margin-top: 10vh !important;
+  padding-top: 20vh !important;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+  height: 90vh;
 }
 
 h1 {
@@ -23,4 +25,10 @@ h1 {
 #container_orange {
   height: 55vh;
   padding-top: 22.5vh !important;
+}
+
+@media (max-width: 990px) {
+  main {
+    padding: 7vh 10vw 7vh 10vw !important;
+  }
 }
