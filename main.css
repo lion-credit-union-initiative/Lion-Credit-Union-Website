@@ -364,6 +364,10 @@ footer .left-block, footer .right-block {
     padding: 11vh 10vw 0 10vw !important;
   }
 
+  #container_orange div {
+    text-align: center !important;
+  }
+
   footer {
     height: auto !important;
     padding-top: 3vh !important;
