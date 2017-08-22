@@ -318,6 +318,7 @@ footer a:hover {
 
   .dropdown-content {
     width: 100vw;
+    display: fixed;
   }
 
   .dropdown a {
@@ -335,5 +336,11 @@ footer a:hover {
   footer .row {
     padding-left: 2vw;
     padding-right: 2vw;
+  }
+
+  #container_orange row{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-align: center !important;
   }
 }
