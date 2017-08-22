@@ -183,7 +183,7 @@ main {
   background-color: #ffffff;
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
-  padding: 7vh 10vw 7vh 10vw !important;
+  padding: 7vh 10vw 7vh 10vw;
 }
 
 /* Container for the bottom blocks on page */
@@ -210,7 +210,6 @@ main {
   width: 100%;
   margin-left: none;
   margin-right: none;
-  padding: 7vh 10vw 7vh 10vw !important;
   text-align: left;
   vertical-align: top;
   font-family: 'SmallerFont', sans-serif;
