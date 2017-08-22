@@ -134,7 +134,7 @@ header nav {
 }
 
 /* BODY */
-#lcucarousel {
+#lcucarousel img {
    width: 100vw !important;
    height: 90vh !important;
    margin-top: 10vh !important;
