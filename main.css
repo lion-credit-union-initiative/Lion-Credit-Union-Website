@@ -346,7 +346,6 @@ footer .left-block, footer .right-block {
     height: auto !important;
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
-    padding: 27vh 10vw 7vh 10vw !important;
   }
 
   #container_blue {
