@@ -337,6 +337,14 @@ footer a:hover {
     align-items: center; /* align vertical */
   }
 
+  footer {
+    height: 80vh;
+  }
+
+  footer .block {
+    height: 20vh;
+  }
+
   footer .row {
     padding-left: 2vw;
     padding-right: 2vw;

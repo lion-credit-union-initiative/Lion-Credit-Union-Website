@@ -14,7 +14,7 @@ a[href="lcu.html"] {
 }
 
 #container_blue {
-  padding: 20vh 10vw 30vh 10vw !important;
+  padding: 20vh 10vw 30vh 10vw;
   height: 90vh;
   align-items: center;
 }
@@ -58,10 +58,7 @@ main {
 
   #container_blue {
     height: 80vh !important;
-  }
-
-  #container_blue {
-    height: 80vh !important;
+    padding: 5vh 2vw 0 2vw !important;
   }
 
   #container_orange {
