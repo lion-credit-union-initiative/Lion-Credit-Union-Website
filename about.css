@@ -22,5 +22,5 @@ h1 {
 
 #container_orange {
   height: 55vh;
-  padding-top: 22.5vh;
+  padding-top: 22.5vh !important;
 }

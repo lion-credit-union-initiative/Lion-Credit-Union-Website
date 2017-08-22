@@ -349,6 +349,7 @@ footer a:hover {
 
   #container_orange * {
     text-align: center !important;
+    padding-top: auto;
   }
 
   footer {
@@ -358,7 +359,7 @@ footer a:hover {
   }
 
   footer .block {
-    height: 20vh !important;
+    height: 10vh !important;
   }
 
   footer .row {
