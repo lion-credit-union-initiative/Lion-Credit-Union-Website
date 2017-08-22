@@ -24,10 +24,3 @@ h1 {
   height: 55vh;
   padding-top: 22.5vh;
 }
-
-@media (max-width: 990px) {
-  main {
-    margin-top: 20vh !important;
-    height: auto !important;
-  }
-}

@@ -38,20 +38,4 @@ main {
   .image-container img {
     height: 15vh !important;
   }
-
-  main {
-    height: 80vh !important;
-    margin-top: 20vh !important;
-  }
-
-  #container_blue {
-    height: auto !important;
-    width: 100vw !important;
-    padding: 5vh 2vw 0 2vw !important;
-  }
-
-  #container_orange {
-    height: 80vh !important;
-    width: 100vw !important;
-  }
 }
