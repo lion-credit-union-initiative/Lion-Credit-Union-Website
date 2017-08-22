@@ -352,6 +352,10 @@ footer a:hover {
     padding-top: auto;
   }
 
+  #container_orange {
+    padding-top: 11vh;
+  }
+
   footer {
     height: auto !important;
     padding-top: 3vh;
