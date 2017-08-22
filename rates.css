@@ -68,8 +68,8 @@ td {
 @media (max-width: 990px) {
   table {
     width: 96vw !important;
-    margin-left: -8vw !important;
-    margin-right: -8 vw !important;
+    margin-left: 2vw !important;
+    margin-right: 2vw !important;
   }
 
   th, td, .divider, .compare-target {
