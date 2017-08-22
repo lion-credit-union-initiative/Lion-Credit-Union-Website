@@ -7,8 +7,6 @@ main {
   margin-top: 10vh !important;
   justify-content: center; /* align horizontal */
   align-items: center;
-  padding-bottom: 10vh;
-  padding-left: 10vw%;
   height: 90vh;
 }
 
@@ -62,7 +60,16 @@ td {
 }
 
 @media (max-width: 990px) {
+  main {
+    padding-left: 2vw !important;
+    padding-right: 2vw !important;
+  }
+
   table {
     width: 96vw !important;
+  }
+
+  th, td, .divider, .compare-target {
+    font-size: 12px;
   }
 }

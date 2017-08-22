@@ -7,8 +7,6 @@ main {
   margin-top: 10vh !important;
   justify-content: center; /* align horizontal */
   align-items: center;
-  padding-bottom: 10vh;
-  padding-left: 10vw%;
 }
 
 .faq-header {
