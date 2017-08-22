@@ -372,12 +372,14 @@ footer .left-block, footer .right-block {
 
   footer .block {
     height: 15vh;
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
   }
 
   footer .row {
     padding-left: 2vw !important;
     padding-right: 2vw !important;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   footer .left-block {
