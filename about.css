@@ -15,9 +15,9 @@ h1 {
 
 #container_blue {
   height: 90vh;
+  padding: 20vh 10vw 30vh 10vw;
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
-  padding-top: 20vh !important;
 }
 
 #container_orange {
@@ -26,7 +26,8 @@ h1 {
 }
 
 @media (max-width: 990px) {
-  .main-content {
-    padding-top: 180px;
+  main {
+    margin-top: 20vh !important;
+    height: auto !important;
   }
 }
