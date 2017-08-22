@@ -8,16 +8,15 @@ main {
   justify-content: center; /* align horizontal */
   align-items: center;
   padding-bottom: 10vh;
+  padding-left: 10vw%;
 }
 
 .faq-header {
   margin-top: 10vh;
-  margin-left: 10vw%;
 }
 
 .faq-question {
   margin-top: 2vh;
-  margin-left: 10vw%;
 }
 
 .faq-question .question {
@@ -61,8 +60,4 @@ main h2 {
   height: 55vh;
   padding: 22vh 0 22vh 0;
   text-align: right;
-}
-
-@media (max-width: 990px) {
-
 }
