@@ -312,6 +312,7 @@ footer a:hover {
     float: center;
     height: 10vh;
     width: auto;
+    margin: auto;
   }
 
   header .nav {

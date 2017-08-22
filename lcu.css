@@ -34,11 +34,22 @@ main {
   font-size: 14px;
 }
 
-/*
-@media (max-width: 990px) {
+@media (min-width: 990px) {
   .image-container img {
-    height: 100px;
     width: auto;
   }
 }
-*/
+
+@media (max-width: 990px) {
+  .image-container img {
+    height: 20vh !important;
+  }
+
+  main {
+    margin-top: 20vh !important;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}
