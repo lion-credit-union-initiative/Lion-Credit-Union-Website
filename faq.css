@@ -35,6 +35,7 @@ main {
 }
 
 .glyphicon {
+  display: inline-block;
   padding-top: 7px;
   padding-left: 7px;
   color: #f2b124;
