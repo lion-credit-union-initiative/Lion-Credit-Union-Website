@@ -372,7 +372,6 @@ footer .left-block, footer .right-block {
 
   footer .block {
     height: 15vh;
-    margin-bottom: 2vh;
   }
 
   footer .row {
@@ -408,6 +407,6 @@ footer .left-block, footer .right-block {
   }
 
   h4 {
-    font-size: 14px !important;
+    font-size: 16px !important;
   }
 }
