@@ -9,6 +9,20 @@ main {
   align-items: center;
 }
 
+main a {
+  text-decoration: none;
+  color: #f2b124;
+}
+
+main a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+main h2 {
+  color: #2895fe;
+}
+
 .faq-header {
   margin-top: 10vh;
 }
@@ -39,20 +53,6 @@ main {
   padding-top: 7px;
   padding-left: 7px;
   color: #f2b124;
-}
-
-main a {
-  text-decoration: none;
-  color: #f2b124;
-}
-
-main a:hover {
-  text-decoration: none;
-  color: #000000;
-}
-
-main h2 {
-  color: #2895fe;
 }
 
 #container_orange {

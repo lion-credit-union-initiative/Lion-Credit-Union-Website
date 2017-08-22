@@ -184,7 +184,10 @@ main {
   background-color: #ffffff;
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
-  padding: 7vh 10vw 7vh 10vw !important;
+  padding-top: 7vh !important;
+  padding-left: 10vw !important;
+  padding-bottom: 7vh !important;
+  padding-right: 10vw !important;
   width: 100%;
 }
 
