@@ -364,11 +364,6 @@ footer .left-block, footer .right-block {
     padding: 11vh 10vw 0 10vw !important;
   }
 
-  #container_orange * {
-    text-align: center !important;
-    padding-top: auto;
-  }
-
   footer {
     height: auto !important;
     padding-top: 3vh !important;
@@ -376,8 +371,8 @@ footer .left-block, footer .right-block {
   }
 
   footer .block {
-    height: 10vh !important;
-    margin-bottom: 5vh !important;
+    height: 15vh;
+    margin-bottom: 5vh;
   }
 
   footer .row {
@@ -385,8 +380,17 @@ footer .left-block, footer .right-block {
     padding-right: 2vw !important;
   }
 
+  footer .left-block {
+    height: 7vh;
+  }
+
+  footer .right-block {
+    height: 10vh;
+  }
+
   footer .left-block, footer .right-block {
-    text-align: center !important;!
+    text-align: center !important;
+    margin-bottom: 0 !important;
   }
 
   h1 {
