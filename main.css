@@ -135,9 +135,13 @@ header nav {
 
 /* BODY */
 #lcucarousel img {
-   width: 100vw !important;
-   height: 90vh !important;
-   margin-top: 10vh !important;
+  width: 100vw !important;
+  height: 90vh !important;
+  margin-top: 10vh !important;
+}
+
+#lcucarousel .carousel-caption h3 {
+  color: #ffffff;
 }
 
 body {
