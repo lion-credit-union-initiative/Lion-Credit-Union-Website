@@ -69,7 +69,7 @@ td {
   table {
     width: 96vw !important;
     margin-left: -8vw !important;
-    margin-right: -8 vw !important;
+    margin-right: 2vw !important;
   }
 
   th, td, .divider, .compare-target {
