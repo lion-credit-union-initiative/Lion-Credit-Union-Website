@@ -318,7 +318,7 @@ footer a:hover {
 
   .dropdown-content {
     width: 100vw;
-    display: fixed;
+    position: fixed;
   }
 
   .dropdown a {
