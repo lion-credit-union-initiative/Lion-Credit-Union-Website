@@ -31,7 +31,7 @@ header {
   font-family: 'SmallerFont', sans-serif;
 }
 
-header .row {
+  header .row {
   height: 10vh;
   position: fixed;
   background: #ffffff;
@@ -176,14 +176,15 @@ body {
   line-height: 1.7;
   font-size: 17px;
   overflow-x: hidden;
-  width: 100vw;
+  width: 100vw !important;
 }
 
 main {
   background-color: #ffffff;
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
-  padding: 7vh 10vw 7vh 10vw;
+  padding: 7vh 10vw 7vh 10vw !important;
+  width: 100%;
 }
 
 /* Container for the bottom blocks on page */
@@ -331,18 +332,18 @@ footer a:hover {
   }
 
   main {
-    padding-top: 10vh;
+    padding-top: 10vh !important;
     padding-bottom: 10vh;
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
   }
 
   footer {
-    height: 80vh;
+    height: 80vh !important;
   }
 
   footer .block {
-    height: 20vh;
+    height: 20vh !important;
   }
 
   footer .row {
@@ -351,8 +352,9 @@ footer a:hover {
   }
 
   #container_orange row{
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-left: 5vw !important;
+    padding-right: 5vw !important;
+    padding-top: 3vh !important;
     text-align: center !important;
   }
 }
