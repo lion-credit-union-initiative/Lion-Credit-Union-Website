@@ -192,8 +192,8 @@ main {
   display:inline-block;
   background-color: #fec846;
   width: 100%;
-  margin-left: none;
-  margin-right: none;
+  margin-left: 0;
+  margin-right: 0;
   text-align: right;
   vertical-align: top;
   line-height: 1;
@@ -209,8 +209,8 @@ main {
   display: inline-block;
   background-color: #2895fe;
   width: 100%;
-  margin-left: none;
-  margin-right: none;
+  margin-left: 0;
+  margin-right: 0;
   text-align: left;
   vertical-align: top;
   font-family: 'SmallerFont', sans-serif;

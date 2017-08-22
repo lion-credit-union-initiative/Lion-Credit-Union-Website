@@ -57,13 +57,13 @@ main {
   }
 
   #container_blue {
-    height: 80vh !important;
+    height: auto !important;
     width: 100vw !important;
     padding: 5vh 2vw 0 2vw !important;
   }
 
   #container_orange {
-    height: 45vh !important;
+    height: 80vh !important;
     width: 100vw !important;
   }
 }
