@@ -46,11 +46,11 @@ main h2 {
   line-height: 1.7;
 }
 
-.question, .text, .octicon {
+.question, .text, .fa {
   float: left;
 }
 
-.octicon {
+.fa {
   display: inline-block;
   padding-top: 7px;
   padding-left: 7px;
