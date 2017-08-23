@@ -7,6 +7,7 @@ main {
   margin-top: 10vh !important;
   justify-content: center; /* align horizontal */
   align-items: center;
+  height: auto !important;
 }
 
 main a {
@@ -36,6 +37,7 @@ main h2 {
   cursor: pointer;
   display: block;
   height: 5vh;
+  width: 100%;
 }
 
 .answer {
@@ -44,11 +46,11 @@ main h2 {
   line-height: 1.7;
 }
 
-.question .text, .glyphicon {
+.question, .text, .octicon {
   float: left;
 }
 
-.glyphicon {
+.octicon {
   display: inline-block;
   padding-top: 7px;
   padding-left: 7px;
