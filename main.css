@@ -353,6 +353,11 @@ footer .left-block, footer .right-block {
     align-items: center; /* align vertical */
   }
 
+  #lcucarousel img {
+    height: 45vh !important;
+    margin-top: 20vh !important;
+  }
+
   #container_blue {
     height: auto !important;
     padding: 7vh 10vw 7vh 10vw !important;
