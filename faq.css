@@ -8,6 +8,8 @@ main {
   justify-content: center; /* align horizontal */
   align-items: center;
   height: auto !important;
+  display: inline-block;
+  position: relative;
 }
 
 main a {
