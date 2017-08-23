@@ -34,9 +34,4 @@ h1 {
   main {
     padding: 7vh 10vw 7vh 10vw !important;
   }
-
-  #container_blue {
-    margin-top: 20vh !important;
-    padding-top: -20vh !important;
-  }
 }

@@ -32,7 +32,7 @@ a[href="index.html"] {
 
 #container_orange {
   height: 55vh;
-  padding: 22vh 10vw 22vh 10vw !important;
+  padding: 22vh 10vw 22vh 10vw;
   text-align: right;
 }
 
