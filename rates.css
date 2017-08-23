@@ -75,5 +75,6 @@ td {
 
   main {
     padding-top: 10vh !important;
+    padding: 7vh 10vw 7vh 10vw !important;
   }
 }

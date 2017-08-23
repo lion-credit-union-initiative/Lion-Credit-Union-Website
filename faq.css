@@ -69,5 +69,6 @@ main h2 {
 @media (max-width: 990px) {
   main {
     margin-top: 20vh !important;
+    padding: 7vh 10vw 7vh 10vw !important;
   }
 }
