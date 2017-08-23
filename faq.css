@@ -50,6 +50,13 @@ main h2 {
   float: left;
 }
 
+.octicon {
+  display: inline-block;
+  padding-top: 7px;
+  padding-left: 7px;
+  color: #f2b124;
+}
+
 #container_orange {
   height: 55vh;
   padding: 22vh 0 22vh 0;
