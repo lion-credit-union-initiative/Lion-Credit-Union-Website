@@ -1,3 +1,10 @@
+/* TESTING */
+body * {
+  border-style: solid;
+  border-color: red;
+}
+
+
 /* GLOBAL ITEMS */
 @font-face {
   font-family: BiggerFont;
@@ -228,7 +235,7 @@ footer .row * {
 }
 
 footer .block {
-  height: 12vh;
+  height: 16vh;
   margin-bottom: 2vh;
   text-align: left;
 }
