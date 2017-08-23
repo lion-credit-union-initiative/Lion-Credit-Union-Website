@@ -45,4 +45,8 @@ main {
   .image-container img {
     height: 10vh !important;
   }
+
+  #container_orange {
+    padding: 17vh 15vw 0 15vw !important;
+  }
 }
