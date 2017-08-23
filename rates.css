@@ -72,4 +72,8 @@ td {
   th, td, .divider, .compare-target {
     font-size: 12px;
   }
+
+  main {
+    padding-top: 10vh !important;
+  }
 }

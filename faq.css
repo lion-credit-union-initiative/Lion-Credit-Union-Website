@@ -64,3 +64,10 @@ main h2 {
   padding: 22vh 0 22vh 0;
   text-align: right;
 }
+
+/* For mobile devices */
+@media (max-width: 990px) {
+  main {
+    margin-top: 20vh !important;
+  }
+}
