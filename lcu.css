@@ -11,7 +11,6 @@ a[href="index.html"] {
 }
 
 .row {
-  min-width: 80v;
   width: 80vw !important;
 }
 
@@ -33,7 +32,7 @@ a[href="index.html"] {
 
 #container_orange {
   height: 55vh;
-  padding: 22vh 0 22vh 0;
+  padding: 22vh 10vw 22vh 10vw !important;
   text-align: right;
 }
 

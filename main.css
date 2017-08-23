@@ -225,9 +225,10 @@ footer {
 }
 
 footer .row {
-  padding-left: 10vw;
+  padding-left: 10vw !important;
   padding-right: 10vw;
   font-size: 12px;
+  width: 100vw !important;
 }
 
 footer .row * {
