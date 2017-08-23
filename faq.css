@@ -71,4 +71,8 @@ main h2 {
     margin-top: 20vh !important;
     padding: 7vh 10vw 7vh 10vw !important;
   }
+
+  #container_orange {
+    padding: 17vh 15vw 0 15vw !important;
+  }
 }
